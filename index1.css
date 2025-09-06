@@ -1,27 +1,31 @@
 
-
-.new{
-    color: aqua;
+.new2{
+    color:aliceblue;
+    border: 10px solid black;
+    background-color: rgb(174, 174, 222);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+ 
 
-.square{
-        width: 300px;
-        height: 300px;
-        border: 1px solid black;
-    }
+ .circle{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+       
+ }
 
-.circle{
-        width: 150px;
-        height: 150px;
-        border: 2px solid black;
-        border-radius: 50%;
-    }
+ .NM{
+    color: rgb(5, 5, 6);
 
-.square1{
-       width: 300px;
-        height: 300px;
-        border: 1px solid black;
-    }
+ }
+
+ button{
+    margin-right: 20px;
+ }
 }
